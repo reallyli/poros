@@ -12,8 +12,10 @@
 
   @for $i from 1 through 6 {
     h#{$i} {
-      font-weight: 100;
+      font-weight: 120;
+      font: bold;
       font-family: $global-serif-font-family;
+      color: #080707;
     }
   }
 
